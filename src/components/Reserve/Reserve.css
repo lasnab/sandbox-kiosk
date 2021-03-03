@@ -1,0 +1,18 @@
+.reserve {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #32B572;
+    height: calc(100vh - 50px);
+}
+
+.reserve__heading {
+    color: white;
+    font-size: 3.5em;
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

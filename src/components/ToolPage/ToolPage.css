@@ -1,0 +1,70 @@
+.toolpage {
+    background-color: #32B572;
+    height: 100vh;
+}
+
+.toolpage__heading {
+    color: white;
+    font-size: 3.5em;
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 25px;
+}
+
+.toolpage__information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.toolpage__block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 25px 50px;
+}
+
+.toolpage-description {
+    padding-right: 50px;
+}
+
+.toolpage__image {
+}
+
+.toolpage__actions {
+    align-self: flex-start;
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    padding-left: 45px;
+}
+
+.toolpage-action {
+    padding: 25px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+.toolpage-option {
+    width: 400px;
+    height: auto;
+    text-decoration: none;
+    color: #2B2726;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 10px;
+    margin: 10px 10px;
+    background-color: white;
+    border-radius: 45px;   
+}
+
+.toolpage-option:hover {
+    transition: 250ms ease-in;
+    background-color: #2B2726;
+    color: white;
+}

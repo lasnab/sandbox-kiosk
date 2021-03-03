@@ -1,0 +1,42 @@
+.studio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #32B572;
+    height: calc(100vh - 50px);
+}
+
+.studio__name {
+    color: white;
+    font-size: 3.5em;
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+
+.studio__links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.studio-option {
+    text-decoration: none;
+    color: #2B2726;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 10px;
+    margin: 10px 0px;
+    width: 100%;
+    background-color: white;
+    border-radius: 45px;   
+}
+
+.studio-option:hover {
+    transition: 250ms ease-in;
+    background-color: #2B2726;
+    color: white;
+}

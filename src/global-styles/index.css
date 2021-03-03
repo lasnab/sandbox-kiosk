@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: normal;
+  font-style: normal;
+  src:  url('./fonts/opensans-regular-webfont.woff') format('woff2'),
+        url('./fonts/opensans-regular-webfont.woff') format('woff');
+}
+
+* {
+  margin:0;
+  font-family: 'Open Sans', sans-serif;
+}
+ 
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

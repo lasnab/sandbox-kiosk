@@ -1,0 +1,22 @@
+.alltools {
+    background-color: #32B572;
+    padding-bottom: 25px;
+}
+
+.alltools__heading {
+    color: white;
+    font-size: 3.5em;
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.alltools__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5px;
+    margin-bottom: 50px;
+}
