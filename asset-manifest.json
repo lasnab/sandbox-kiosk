@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/sandbox-kiosk/static/css/main.0d6cc435.chunk.css",
+    "main.js": "/sandbox-kiosk/static/js/main.7dc5ac63.chunk.js",
+    "main.js.map": "/sandbox-kiosk/static/js/main.7dc5ac63.chunk.js.map",
+    "runtime-main.js": "/sandbox-kiosk/static/js/runtime-main.61c30282.js",
+    "runtime-main.js.map": "/sandbox-kiosk/static/js/runtime-main.61c30282.js.map",
+    "static/css/2.31461e4f.chunk.css": "/sandbox-kiosk/static/css/2.31461e4f.chunk.css",
+    "static/js/2.2b4b0d26.chunk.js": "/sandbox-kiosk/static/js/2.2b4b0d26.chunk.js",
+    "static/js/2.2b4b0d26.chunk.js.map": "/sandbox-kiosk/static/js/2.2b4b0d26.chunk.js.map",
+    "static/js/3.fc87036f.chunk.js": "/sandbox-kiosk/static/js/3.fc87036f.chunk.js",
+    "static/js/3.fc87036f.chunk.js.map": "/sandbox-kiosk/static/js/3.fc87036f.chunk.js.map",
+    "index.html": "/sandbox-kiosk/index.html",
+    "static/css/2.31461e4f.chunk.css.map": "/sandbox-kiosk/static/css/2.31461e4f.chunk.css.map",
+    "static/css/main.0d6cc435.chunk.css.map": "/sandbox-kiosk/static/css/main.0d6cc435.chunk.css.map",
+    "static/js/2.2b4b0d26.chunk.js.LICENSE.txt": "/sandbox-kiosk/static/js/2.2b4b0d26.chunk.js.LICENSE.txt",
+    "static/media/Home.css": "/sandbox-kiosk/static/media/bg01.fa5e9562.jpg",
+    "static/media/index.css": "/sandbox-kiosk/static/media/opensans-regular-webfont.09bc40c2.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.61c30282.js",
+    "static/css/2.31461e4f.chunk.css",
+    "static/js/2.2b4b0d26.chunk.js",
+    "static/css/main.0d6cc435.chunk.css",
+    "static/js/main.7dc5ac63.chunk.js"
+  ]
+}
