@@ -6,7 +6,7 @@ function Footer({ studio }) {
     return (
         <div className='footer'> 
             <Link to='/' className='footer-link'>sandbox</Link>
-            <Link to='studio' className='footer-link'>{ studio }</Link>            
+            <Link to='/studio' className='footer-link'>{ studio }</Link>            
         </div>
     )
 }

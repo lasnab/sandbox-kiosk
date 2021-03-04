@@ -13,7 +13,7 @@ function AllTools( {alltools} ) {
             <div className='alltools__cards'>
                 { alltools.map((tool) => {
                     return (
-                        <Link to='tool' onClick={() => dispatch({type:'SET_TOOL', tool:tool})}><ToolCard name={tool.tool_id} image={tool.image_url}/></Link>
+                        <Link to='/tool' onClick={() => dispatch({type:'SET_TOOL', tool:tool})}><ToolCard name={tool.tool_id} image={tool.image_url}/></Link>
                    )})
                 }
             </div>

@@ -38,8 +38,8 @@ function ToolPage() {
                         :
                         null
                     }
-                    <Link to='studio' className='toolpage-action toolpage-option'>Check Eligibility</Link>
-                    <Link to='studio' className='toolpage-action toolpage-option'>Reserve</Link>
+                    <Link to='/studio' className='toolpage-action toolpage-option'>Check Eligibility</Link>
+                    <Link to='/studio' className='toolpage-action toolpage-option'>Reserve</Link>
                 </div>
             </div>
         </div>
