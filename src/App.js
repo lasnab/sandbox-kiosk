@@ -8,6 +8,7 @@ import Reserve from './components/Reserve/Reserve';
 import AllTools from './components/AllTools/AllTools'
 import ToolPage from './components/ToolPage/ToolPage'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import { tool_response } from './temporary.js'
 
 /*
@@ -34,19 +35,19 @@ function App() {
     return !alltools.length ?
       <h1>Loading Resources</h1> :
       (
-        <Router>
+        <BrowserRouter basename="/sandbox-kiosk">
           <div className='app'>
             <Switch>
-              <Route path='/sandbox-kisok/tool'><ToolPage /></Route>
-              <Route path='/sandbox-kisok/studio'><Studio studio={studio} /></Route>
-              <Route path='/sandbox-kisok/info'><Info studio={studio} studio_wiki='https://wiki.umiacs.umd.edu/sandbox/index.php/IRB_1224#Woodworking_Studio.'/></Route>
-              <Route path='/sandbox-kisok/reserve'><Reserve reserve_url='https://docs.google.com/forms/d/e/1FAIpQLSeaHxnBaZCDpPZFkRcImh89JPcGiTAyzz7_yFC6a9MhWpWK2A/viewform?embedded=true'/></Route>
-              <Route path='/sandbox-kisok/alltools'><AllTools alltools={alltools}/></Route>
-              <Route path='/sandbox-kiosk'><Home studio={studio}/></Route>
+              <Route path='/tool'><ToolPage /></Route>
+              <Route path='/studio'><Studio studio={studio} /></Route>
+              <Route path='/info'><Info studio={studio} studio_wiki='https://wiki.umiacs.umd.edu/sandbox/index.php/IRB_1224#Woodworking_Studio.'/></Route>
+              <Route path='/reserve'><Reserve reserve_url='https://docs.google.com/forms/d/e/1FAIpQLSeaHxnBaZCDpPZFkRcImh89JPcGiTAyzz7_yFC6a9MhWpWK2A/viewform?embedded=true'/></Route>
+              <Route path='/alltools'><AllTools alltools={alltools}/></Route>
+              <Route path='/'><Home studio={studio}/></Route>
             </Switch>
             <Footer studio={studio} />
           </div>
-        </Router>
+        </BrowserRouter>
       );
 
 }
