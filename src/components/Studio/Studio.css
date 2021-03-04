@@ -1,25 +1,26 @@
 .studio {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background-color: #32B572;
-    height: calc(100vh - 50px);
+    padding-bottom: 25px;
+    /* height: 100vh; */
 }
 
-.studio__name {
+.studio__heading {
     color: white;
     font-size: 3.5em;
     font-weight: bold;
     text-align: center;
     text-transform: capitalize;
-    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .studio__links {
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    margin-bottom: 150px;
 }
 
 .studio-option {
@@ -30,7 +31,7 @@
     text-align: center;
     padding: 15px 10px;
     margin: 10px 0px;
-    width: 100%;
+    width: 375px;
     background-color: white;
     border-radius: 45px;   
 }

@@ -2,7 +2,7 @@
   "name": "sandbox-kiosk",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://lasnab.github.io/sandbox-kiosk",
+  "homepage": "https://hrithikbansal.com/sandbox-kiosk",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
