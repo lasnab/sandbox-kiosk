@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/sandbox-kiosk/static/css/main.e85e692a.chunk.css",
-    "main.js": "/sandbox-kiosk/static/js/main.3ce53041.chunk.js",
-    "main.js.map": "/sandbox-kiosk/static/js/main.3ce53041.chunk.js.map",
+    "main.js": "/sandbox-kiosk/static/js/main.90077e34.chunk.js",
+    "main.js.map": "/sandbox-kiosk/static/js/main.90077e34.chunk.js.map",
     "runtime-main.js": "/sandbox-kiosk/static/js/runtime-main.61c30282.js",
     "runtime-main.js.map": "/sandbox-kiosk/static/js/runtime-main.61c30282.js.map",
     "static/css/2.31461e4f.chunk.css": "/sandbox-kiosk/static/css/2.31461e4f.chunk.css",
@@ -22,6 +22,6 @@
     "static/css/2.31461e4f.chunk.css",
     "static/js/2.2b4b0d26.chunk.js",
     "static/css/main.e85e692a.chunk.css",
-    "static/js/main.3ce53041.chunk.js"
+    "static/js/main.90077e34.chunk.js"
   ]
 }
